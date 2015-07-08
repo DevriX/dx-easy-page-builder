@@ -1,0 +1,116 @@
+div[aria-describedby~="dx-confirm-devrix-dialog"] .ui-dialog-titlebar-close,
+div[aria-describedby~="dx-confirm-other-dialog"] .ui-dialog-titlebar-close {
+    height: 52px !important
+}
+.dx-col-classes {
+    margin-top: 13px
+}
+.dx-col-classes input {
+    margin-top: -3px !important
+}
+.dx-edit-col-classes-btn-ok {
+    background: #74CF66;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: none;
+    font-size: 0.675rem;
+    height: 1.725rem;
+    line-height: 1;
+    margin-left: 0.5rem;
+    outline: medium none;
+    padding: 0 1rem;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 9px
+}
+#dx-confirm-devrix-dialog, #dx-confirm-other-dialog, #dx-article-dialog, #dx-alert, #dx-article{
+    display: none
+}
+.dx-columns.dx-col-8 .dx-col-classes,
+.dx-columns.dx-col-8 .dx-edit-col-classes-btn,
+.dx-columns.dx-col-7 .dx-col-classes,
+.dx-columns.dx-col-7 .dx-edit-col-classes-btn,
+.dx-columns.dx-col-6 .dx-col-classes,
+.dx-columns.dx-col-6 .dx-edit-col-classes-btn,
+.dx-columns.dx-col-5 .dx-col-classes,
+.dx-columns.dx-col-5 .dx-edit-col-classes-btn,
+.dx-columns.dx-col-4 .dx-col-classes,
+.dx-columns.dx-col-4 .dx-edit-col-classes-btn,
+.dx-columns.dx-col-3 .dx-col-classes,
+.dx-columns.dx-col-3 .dx-edit-col-classes-btn {
+	display: none
+}
+.dx-tab-content, #dx-custom-textarea-dialog, .dx_epb_custom_hidden{
+	display: none;
+}
+.dx-tab-content-activate{
+	display: block;
+}
+.shortcode-txt{
+	margin: 15px 2px;
+	display:none;
+}
+.top-wrapper.active .shortcode-txt{
+	display:block;
+}
+#dx-custom-textarea-dialog textarea {
+	width:90%;
+	height:100%;
+	padding:5px;
+}
+.small-column-properties {
+	width:120px !important;
+}
+.dx-select-section-class {
+	margin:10px 20px;
+}
+#dx_article{
+	width:90%;
+	margin-top:5px;
+}
+#dx-alert .editor-wrapper {
+	float:left;
+	height:200px;
+	width:50%;
+	margin-top:-7px;
+	padding:14px 10px 0px 0px;
+}
+#dx-alert .option-wrapper {
+	float:left;
+	padding:2%;
+	width:50%;
+	margin-top:-7px;
+	background-color:#f3f3f3;
+	height:242px;
+	font-family:"Open Sans",sans-serif;
+	overflow-y:scroll;
+}
+#dx-alert textarea {
+	width:99%;
+	height:100%;
+	padding:5px;
+}
+div[aria-describedby~="dx-alert"] .ui-dialog-titlebar-close {
+	height:52px !important
+}
+div[aria-describedby~="dx-alert"] .ui-dialog-content {
+	padding-right:0px !important;
+}
+#dx-alert h4 {
+	margin-left: -20px !important;
+	margin-right: -24px !important;
+    margin-top: -24px !important;
+}
+#dx-alert-ids{
+	padding:5px;
+	width:100%;
+}
+#dx-alert p{
+	margin-left:5px !important;
+}
+.dx-alert-ids-wrap {
+	display:none;
+}

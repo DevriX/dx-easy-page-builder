@@ -1,0 +1,29 @@
+// Includes
+@import "base/grid";
+
+
+/**
+ * END GRID HERE / Start DX styles. You can edit from here onwards.
+ * ----------------------------------------------------------------------------
+ */
+
+.clearfix:before,
+.clearfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.dx-wrapper:before,
+.dx-wrapper:after,
+.dx-wrapper-fluid:before,
+.dx-wrapper-fluid:after {
+	display: table;
+	content: " ";
+}
+
+.epb-public-form input, .epb-public-form textarea {
+	width: 80%;
+	margin-top: 10px;
+}
+
+blockquote > span {
+	white-space: pre-wrap;
+}
